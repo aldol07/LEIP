@@ -1,0 +1,42 @@
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Build and caches
+dist/
+build/
+.cache/
+.turbo/
+coverage/
+
+# Local databases and runtime artifacts
+*.db
+*.sqlite
+*.sqlite3
+*.log
+logs/
+
+# OS and editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+.cursor/
