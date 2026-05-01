@@ -31,7 +31,19 @@ Local URLs:
 
 ## Environment variables
 
-All required keys are listed in `.env.example`:
+`.env.example` lists all supported keys. Most have safe defaults.
+
+Minimum keys to set:
+
+- `JWT_SECRET_KEY` (set a strong value; avoid default in shared/public environments)
+
+Common optional keys (set only if needed):
+
+- `GROQ_API_KEY` (required only for real Groq commentary)
+- `GEMINI_API_KEY` (required only for real Gemini analysis/report)
+- `USE_MOCK` (`true` for fixture mode, `false` for TheSportsDB mode)
+
+All supported keys:
 
 - `APP_ENV`
 - `API_PREFIX`
