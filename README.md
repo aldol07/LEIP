@@ -84,8 +84,6 @@ All supported keys:
 
 ## WebSocket test evidence (2 simultaneous clients)
 
-Use this flow and attach screenshot evidence for submission:
-
 1. Start stack with `docker compose up`.
 2. Login in two browser windows (or one normal + one incognito).
 3. Open Live Event screen in both clients for the same subscribed event.
